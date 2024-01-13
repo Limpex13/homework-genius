@@ -1,0 +1,70 @@
+:root {
+    --brand-blue-light: #2B7FFF;
+    --brand-blue-dark: #011C44;
+    --color-primary-light: #FFFFFF;
+}
+
+address {
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+.button{
+    color: var(--brand-blue-dark);
+    background-color: var(--color-primary-light);
+    border: 2px solid var(--brand-blue-light);
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--brand-blue-light);
+    color: var(--color-primary-light);
+}
+
+/* header */
+.header-link{
+    font-family: "Roboto", 'sans-serif';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: var(--brand-blue-dark);
+        text-decoration: none;
+}
+
+.header-link:hover {
+    color: var(--brand-blue-light);
+    font-weight: 700;
+}
+
+/* hero-title */
+
+.description-title {
+    font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+
+.hero-title{
+    font-family: 'Play', sans-serif;
+    color: var(--brand-blue-light);
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 0.8;
+}
+
+.description-button {
+    color: #4A4A4A;
+    font-family: "Roboto", 'sans-serif';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
