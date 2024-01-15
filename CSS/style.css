@@ -1,0 +1,214 @@
+:root {
+    --brand-blue-light: #2B7FFF;
+    --brand-blue-dark: #011C44;
+    --color-primary-light: #FFFFFF;
+}
+
+body{
+    color: var(--brand-blue-dark);
+}
+
+address {
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+.button{
+    color: var(--brand-blue-dark);
+    background-color: var(--color-primary-light);
+    border: 2px solid var(--brand-blue-light);
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--brand-blue-light);
+    color: var(--color-primary-light);
+}
+
+/* header */
+.header-link{
+    font-family: "Roboto", 'sans-serif';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: var(--brand-blue-dark);
+        text-decoration: none;
+}
+
+.header-link:hover {
+    color: var(--brand-blue-light);
+    font-weight: 700;
+}
+
+/* hero-title */
+
+.main-description {
+    font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+
+.hero-title{
+    font-family: 'Play', sans-serif;
+    color: var(--brand-blue-light);
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 0.8;
+}
+
+.description-button {
+    color: #4A4A4A;
+    font-family: "Roboto", 'sans-serif';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* section-about-us */
+
+.description-title {
+    color: var(--brand-blue-dark);
+    font-family: 'Play',sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.description-title span{
+    text-transform: capitalize;
+    color: var(--brand-blue-light);
+}
+
+.description-text{
+    color: var(--brand-blue-dark);
+    font-family: "Roboto", 'sans-serif';
+    font-size: 22;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.description-text2{
+    color: var(--brand-blue-dark);
+        font-family: "Roboto", 'sans-serif';
+        font-size: 22;
+        font-weight: 400;
+        line-height: 1.7;
+}
+
+.description-text2 span{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+/* section-why-us */
+
+.why-us-title {
+    font-family: 'Play',sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.why-us-title span{
+    color: var(--brand-blue-light);
+}
+
+.why-us-text{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #000000;
+}
+
+/* our-procedures-section */
+
+.our-procedures-title {
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.our-procedures-title span {
+    color: var(--brand-blue-light);
+}
+
+/* section-contacts */
+
+.where-us-title{
+    font-family: 'Play', sans-serif;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: normal;
+}
+
+.where-us-title span {
+    color: var(--brand-blue-light);
+}
+
+/* form */
+
+.form-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+
+.form-text span {
+    color: var(--brand-blue-light);
+}
+
+/* footer-section */
+
+.footer-link {
+    font-family: "Roboto", 'sans-serif';
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: 400;
+        line-height: normal;
+        color: var(--color-primary-light);
+        
+}
+
+.footer-link:hover {
+    color: var(--brand-blue-light);
+        font-weight: 700;
+       
+}
+
+.address-link {
+    text-decoration: none;
+    font-family: "Roboto", 'sans-serif';
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-primary-light);
+}
+
+.address-link:hover{
+    color: var(--brand-blue-light);
+    font-weight: 700;
+}
+
+.address-copyright {
+    font-family: "Roboto", 'sans-serif';
+    font-weight: 400;
+    font-size: 13px;
+    color: #747272;
+}
+
+.footer-background{
+    background-color: rgba(1, 28, 68, 1)
+}
+
